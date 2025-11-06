@@ -1,0 +1,20 @@
+#header {text-align: center;align-items: center;flex-direction: row;display: flex;padding-top: 1rem;padding-right: 1rem;padding-left: 1rem;padding-bottom: 1rem;}
+#site-logo {max-width: 160px;margin-top: auto;margin-bottom: auto;}
+@media (max-width:1200px) {#site-logo {max-width: 120px;margin-top: auto;margin-bottom: auto;}}
+#primary-menu .oxy-nav-menu-hamburger-line {background-color: #ee2741;}
+@media (max-width:1200px) {#primary-menu .oxy-nav-menu-list {display: none;}
+	#primary-menu .oxy-menu-toggle {display: initial;}
+	#primary-menu.oxy-nav-menu.oxy-nav-menu-open .oxy-nav-menu-list {display: initial;}}
+#primary-menu.oxy-nav-menu.oxy-nav-menu-open {margin-top: 0 !important;margin-right: 0 !important;margin-left: 0 !important;margin-bottom: 0 !important;}
+#primary-menu.oxy-nav-menu.oxy-nav-menu-open .menu-item a {padding-top: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;}
+#primary-menu.oxy-nav-menu .menu-item a:hover {text-decoration: none;}
+#primary-menu .oxy-nav-menu-hamburger-wrap {width: 40px;height: 40px;margin-top: 10px;margin-bottom: 10px;}
+#primary-menu .oxy-nav-menu-hamburger {width: 40px;height: 32px;}
+#primary-menu .oxy-nav-menu-hamburger-line {height: 6px;}
+#primary-menu.oxy-nav-menu-open .oxy-nav-menu-hamburger .oxy-nav-menu-hamburger-line:first-child {top: 13px;}
+#primary-menu.oxy-nav-menu-open .oxy-nav-menu-hamburger .oxy-nav-menu-hamburger-line:last-child {top: -13px;}
+#primary-menu {margin-left: auto;margin-top: auto;margin-bottom: auto;}
+#primary-menu .oxy-nav-menu-list {flex-direction: row;}
+#primary-menu .menu-item a {padding-top: 20px;padding-left: 20px;padding-right: 20px;padding-bottom: 20px;color: #ee2741;text-decoration: none;}
+#primary-menu.oxy-nav-menu:not(.oxy-nav-menu-open) .sub-menu .menu-item a {border: 0;padding-top: 20px;padding-bottom: 20px;}
+#primary-menu.oxy-nav-menu:not(.oxy-nav-menu-open) .sub-menu .menu-item a:hover {border: 0;padding-top: 20px;padding-bottom: 20px;}
